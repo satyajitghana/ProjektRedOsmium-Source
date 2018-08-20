@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<body>
+    <header>
+      <figure>
+        <img src="./assets/cloud.svg">
+        <figcaption>Projekt RedOsmium</figcaption>
+      </figure>
+      <nav class="flex flex-horizontal-center">
+        <ul>
+          <li><a [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a> </li>
+          <li><a [routerLink]="['/aboutme']" routerLinkActive="router-link-active">About Me</a> </li>
+          <li><a [routerLink]="['/projects']" routerLinkActive="router-link-active">Projects</a> </li>
+          <li><a [routerLink]="['/mycat']" routerLinkActive="router-link-active">My Cat</a> </li>
+        </ul>
+      </nav>
+    </header>
+    <router-outlet></router-outlet>
+  </body>
